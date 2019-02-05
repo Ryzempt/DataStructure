@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066508342209DE05008AF04A /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066508332209DE05008AF04A /* CrimeData.cpp */; };
+		066508362209DE16008AF04A /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066508352209DE16008AF04A /* Music.cpp */; };
+		0665083C2209DFAF008AF04A /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0665083A2209DFAF008AF04A /* Timer.cpp */; };
 		06B366AD21FF5C0000AC4449 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B366AC21FF5C0000AC4449 /* main.cpp */; };
+		06B366BB21FF5E2600AC4449 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B366B921FF5E2600AC4449 /* Controller.cpp */; };
+		06B366BD21FF5EC400AC4449 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B366BC21FF5EC400AC4449 /* Runner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		066508312209DDB8008AF04A /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
+		066508322209DDDA008AF04A /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
+		066508332209DE05008AF04A /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
+		066508352209DE16008AF04A /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
+		066508372209DE28008AF04A /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
+		066508382209DE5C008AF04A /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
+		0665083A2209DFAF008AF04A /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		0665083B2209DFAF008AF04A /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		06B366A921FF5C0000AC4449 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B366AC21FF5C0000AC4449 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		06B366B821FF5E0600AC4449 /* Umlet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Umlet1.png; sourceTree = "<group>"; };
+		06B366B921FF5E2600AC4449 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		06B366BA21FF5E2600AC4449 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		06B366BC21FF5EC400AC4449 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
+		06B366BE21FF60D300AC4449 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		066508302209DDA7008AF04A /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				066508372209DE28008AF04A /* crime.csv */,
+				066508322209DDDA008AF04A /* CrimeData.hpp */,
+				066508332209DE05008AF04A /* CrimeData.cpp */,
+				066508382209DE5C008AF04A /* music.csv */,
+				066508312209DDB8008AF04A /* Music.hpp */,
+				066508352209DE16008AF04A /* Music.cpp */,
+				0665083A2209DFAF008AF04A /* Timer.cpp */,
+				0665083B2209DFAF008AF04A /* Timer.hpp */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		0665083D2209E580008AF04A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				066508302209DDA7008AF04A /* Timer */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		06B366A021FF5C0000AC4449 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +98,47 @@
 		06B366AB21FF5C0000AC4449 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				06B366B621FF5D3200AC4449 /* Resources */,
+				06B366B521FF5D2400AC4449 /* Diagrams */,
+				06B366B421FF5D1B00AC4449 /* Controller */,
+				06B366B321FF5CBB00AC4449 /* Model */,
 				06B366AC21FF5C0000AC4449 /* main.cpp */,
 			);
 			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		06B366B321FF5CBB00AC4449 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06B366BE21FF60D300AC4449 /* Node.hpp */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06B366B421FF5D1B00AC4449 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0665083D2209E580008AF04A /* Tools */,
+				06B366B921FF5E2600AC4449 /* Controller.cpp */,
+				06B366BA21FF5E2600AC4449 /* Controller.hpp */,
+				06B366BC21FF5EC400AC4449 /* Runner.cpp */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		06B366B521FF5D2400AC4449 /* Diagrams */ = {
+			isa = PBXGroup;
+			children = (
+				06B366B821FF5E0600AC4449 /* Umlet1.png */,
+			);
+			path = Diagrams;
+			sourceTree = "<group>";
+		};
+		06B366B621FF5D3200AC4449 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B366BD21FF5EC400AC4449 /* Runner.cpp in Sources */,
 				06B366AD21FF5C0000AC4449 /* main.cpp in Sources */,
+				066508342209DE05008AF04A /* CrimeData.cpp in Sources */,
+				0665083C2209DFAF008AF04A /* Timer.cpp in Sources */,
+				06B366BB21FF5E2600AC4449 /* Controller.cpp in Sources */,
+				066508362209DE16008AF04A /* Music.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
