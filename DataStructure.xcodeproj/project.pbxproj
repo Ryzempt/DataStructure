@@ -43,6 +43,7 @@
 		06B366BE21FF60D300AC4449 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		06E5D96E220C84F600A19B77 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		06E5D96F220C863500A19B77 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		06E5D971220C8EA600A19B77 /* Data Structures Umlet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data Structures Umlet.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +125,7 @@
 		06B366B521FF5D2400AC4449 /* Diagrams */ = {
 			isa = PBXGroup;
 			children = (
+				06E5D971220C8EA600A19B77 /* Data Structures Umlet.png */,
 				06B366B821FF5E0600AC4449 /* Umlet1.png */,
 			);
 			path = Diagrams;
