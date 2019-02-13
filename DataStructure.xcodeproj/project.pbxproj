@@ -10,6 +10,7 @@
 		066508342209DE05008AF04A /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066508332209DE05008AF04A /* CrimeData.cpp */; };
 		066508362209DE16008AF04A /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066508352209DE16008AF04A /* Music.cpp */; };
 		0665083C2209DFAF008AF04A /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0665083A2209DFAF008AF04A /* Timer.cpp */; };
+		066AD4512214789D00FFE190 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066AD44F2214789D00FFE190 /* FileController.cpp */; };
 		06B366BB21FF5E2600AC4449 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B366B921FF5E2600AC4449 /* Controller.cpp */; };
 		06B366BD21FF5EC400AC4449 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B366BC21FF5EC400AC4449 /* Runner.cpp */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,9 @@
 		066508382209DE5C008AF04A /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 		0665083A2209DFAF008AF04A /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		0665083B2209DFAF008AF04A /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		066AD44E22146E6000FFE190 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		066AD44F2214789D00FFE190 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
+		066AD4502214789D00FFE190 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		06B366A921FF5C0000AC4449 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B366B821FF5E0600AC4449 /* Umlet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Umlet1.png; sourceTree = "<group>"; };
 		06B366B921FF5E2600AC4449 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 				06B366BC21FF5EC400AC4449 /* Runner.cpp */,
 				06E5D96B220C83C000A19B77 /* Resources */,
 				0665083D2209E580008AF04A /* Tools */,
+				066AD44F2214789D00FFE190 /* FileController.cpp */,
+				066AD4502214789D00FFE190 /* FileController.hpp */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 				060D234C2211C68C00D4AD9B /* LinkedList.hpp */,
 				06E5D96E220C84F600A19B77 /* List.hpp */,
 				060D234D2211D68200D4AD9B /* Stack.hpp */,
+				066AD44E22146E6000FFE190 /* Queue.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
@@ -233,6 +240,7 @@
 				0665083C2209DFAF008AF04A /* Timer.cpp in Sources */,
 				06B366BB21FF5E2600AC4449 /* Controller.cpp in Sources */,
 				066508362209DE16008AF04A /* Music.cpp in Sources */,
+				066AD4512214789D00FFE190 /* FileController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
