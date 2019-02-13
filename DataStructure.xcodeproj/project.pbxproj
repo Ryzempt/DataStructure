@@ -11,6 +11,7 @@
 		066508362209DE16008AF04A /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066508352209DE16008AF04A /* Music.cpp */; };
 		0665083C2209DFAF008AF04A /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0665083A2209DFAF008AF04A /* Timer.cpp */; };
 		066AD4512214789D00FFE190 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066AD44F2214789D00FFE190 /* FileController.cpp */; };
+		066AD45522147EBB00FFE190 /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066AD45322147EBB00FFE190 /* LinearTester.cpp */; };
 		06B366BB21FF5E2600AC4449 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B366B921FF5E2600AC4449 /* Controller.cpp */; };
 		06B366BD21FF5EC400AC4449 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B366BC21FF5EC400AC4449 /* Runner.cpp */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,8 @@
 		066AD44E22146E6000FFE190 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		066AD44F2214789D00FFE190 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		066AD4502214789D00FFE190 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
+		066AD45322147EBB00FFE190 /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
+		066AD45422147EBB00FFE190 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
 		06B366A921FF5C0000AC4449 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B366B821FF5E0600AC4449 /* Umlet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Umlet1.png; sourceTree = "<group>"; };
 		06B366B921FF5E2600AC4449 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -80,6 +83,15 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		066AD45222147E9D00FFE190 /* Testers */ = {
+			isa = PBXGroup;
+			children = (
+				066AD45322147EBB00FFE190 /* LinearTester.cpp */,
+				066AD45422147EBB00FFE190 /* LinearTester.hpp */,
+			);
+			path = Testers;
+			sourceTree = "<group>";
+		};
 		06B366A021FF5C0000AC4449 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +111,7 @@
 		06B366AB21FF5C0000AC4449 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				066AD45222147E9D00FFE190 /* Testers */,
 				06B366B621FF5D3200AC4449 /* Resources */,
 				06B366B521FF5D2400AC4449 /* Diagrams */,
 				06B366B421FF5D1B00AC4449 /* Controller */,
@@ -119,11 +132,11 @@
 		06B366B421FF5D1B00AC4449 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0665083D2209E580008AF04A /* Tools */,
 				06B366BA21FF5E2600AC4449 /* Controller.hpp */,
 				06B366B921FF5E2600AC4449 /* Controller.cpp */,
 				06B366BC21FF5EC400AC4449 /* Runner.cpp */,
 				06E5D96B220C83C000A19B77 /* Resources */,
-				0665083D2209E580008AF04A /* Tools */,
 				066AD44F2214789D00FFE190 /* FileController.cpp */,
 				066AD4502214789D00FFE190 /* FileController.hpp */,
 			);
@@ -241,6 +254,7 @@
 				06B366BB21FF5E2600AC4449 /* Controller.cpp in Sources */,
 				066508362209DE16008AF04A /* Music.cpp in Sources */,
 				066AD4512214789D00FFE190 /* FileController.cpp in Sources */,
+				066AD45522147EBB00FFE190 /* LinearTester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
