@@ -336,4 +336,37 @@ bg=black</panel_attributes>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>350.0;20.0;330.0;20.0;330.0;250.0;30.0;250.0;30.0;10.0;10.0;10.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>100</y>
+      <w>220</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>DoubleNode&lt;Type&gt;
+--
+
+- nextNode : DN*
+- prevNode : DN*
+
+--
+
+DN()
+DN(Type)
+DN(Type; DN; DN*)
+get/set</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>800</x>
+      <y>80</y>
+      <w>80</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;230.0;60.0;230.0</additional_attributes>
+  </element>
 </diagram>
