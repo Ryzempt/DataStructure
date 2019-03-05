@@ -88,3 +88,42 @@ void LinearTester :: testVsStack()
     
 }
 
+void LinearTester :: testVQueue()
+{
+    Timer crimeTimerQueue, crimeTimerOOP, musicQueue, musicOOP;
+    
+    crimeTimerQueue.startTimer();
+    vector<CrimeData> crimes = FileController :: readCrimeDataToVector("/Users/rkau8389/Documents/C++ Folder/DataStructure/DataStructure/Controller/Resources/crime.csv");
+    
+    crimeTimerQueue.stopTimer();
+    
+    crimeTimerOOP.startTimer()
+    LinkedList<CrimeData> moreCrimes = FileController :: readDataToList("/Users/rkau8389/Documents/C++ Folder/DataStructure/DataStructure/Controller/Resources/crime.csv");
+    crimeTimerOOP.stopTimer();
+    
+    crimeTimerQueue.displayInformation();
+    crimeTimerOOP.displayInformation();
+    
+    cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerQueue.getTimeInMicroseconds() << " microseconds" << endl;
+    
+    musicQueue.startTimer();
+    vector<Music> tunez  = FileController :: musicDataToVector("/Users/rkau8389/Documents/C++ Folder/DataStructure/DataStructure/Controller/Resources/crime.csv");
+    
+    musicQueue.stopTimer();
+    
+    musicOOP.startTimer()
+    LinkedList<Music> musicList  = FileController :: musicDataToList("/Users/rkau8389/Documents/C++ Folder/DataStructure/DataStructure/Controller/Resources/crime.csv");
+    musicOOP.stopTimer();
+    
+    musicQueue.displayInformation();
+    musicOOP.displayInformation();
+    
+    cout << "A difference of: " << musicOOP.getTimeInMicroseconds() - musicQueue.getTimeInMicroseconds() << " microseconds" << endl;
+    
+    crimeTimerOOP.resetTimer();
+    crimeTimerQueue.resetTimer();
+    musicOOP.resetTimer();
+    musicQueue.resetTimer();
+    
+    
+}
