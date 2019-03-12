@@ -46,6 +46,8 @@
 		066AD4502214789D00FFE190 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		066AD45322147EBB00FFE190 /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
 		066AD45422147EBB00FFE190 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
+		066B6B9E2232B74C00DBECC7 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
+		06A4DE9C223166B1005C760A /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		06B366A921FF5C0000AC4449 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B366B821FF5E0600AC4449 /* Umlet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Umlet1.png; sourceTree = "<group>"; };
 		06B366B921FF5E2600AC4449 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 			path = Testers;
 			sourceTree = "<group>";
 		};
+		066B6B9D2232B72700DBECC7 /* Non Linear */ = {
+			isa = PBXGroup;
+			children = (
+				066B6B9E2232B74C00DBECC7 /* Graph.hpp */,
+			);
+			path = "Non Linear";
+			sourceTree = "<group>";
+		};
 		06B366A021FF5C0000AC4449 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		06B366B321FF5CBB00AC4449 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				066B6B9D2232B72700DBECC7 /* Non Linear */,
 				06E5D96D220C840500A19B77 /* Nodes */,
 				06E5D96C220C83FE00A19B77 /* Linear */,
 			);
@@ -173,6 +184,7 @@
 				06E5D96E220C84F600A19B77 /* List.hpp */,
 				060D234D2211D68200D4AD9B /* Stack.hpp */,
 				066AD44E22146E6000FFE190 /* Queue.hpp */,
+				06A4DE9C223166B1005C760A /* Array.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
