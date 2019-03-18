@@ -14,6 +14,7 @@
 		066AD45522147EBB00FFE190 /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066AD45322147EBB00FFE190 /* LinearTester.cpp */; };
 		06B366BB21FF5E2600AC4449 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B366B921FF5E2600AC4449 /* Controller.cpp */; };
 		06B366BD21FF5EC400AC4449 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B366BC21FF5EC400AC4449 /* Runner.cpp */; };
+		06DFE5A0223FDB410004BBF2 /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06DFE59E223FDB410004BBF2 /* GraphTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +55,8 @@
 		06B366BA21FF5E2600AC4449 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		06B366BC21FF5EC400AC4449 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		06B366BE21FF60D300AC4449 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		06DFE59E223FDB410004BBF2 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
+		06DFE59F223FDB410004BBF2 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		06E5D96E220C84F600A19B77 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		06E5D96F220C863500A19B77 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		06E5D971220C8EA600A19B77 /* Data Structures Umlet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data Structures Umlet.png"; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 			children = (
 				066AD45322147EBB00FFE190 /* LinearTester.cpp */,
 				066AD45422147EBB00FFE190 /* LinearTester.hpp */,
+				06DFE59E223FDB410004BBF2 /* GraphTester.cpp */,
+				06DFE59F223FDB410004BBF2 /* GraphTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06B366BD21FF5EC400AC4449 /* Runner.cpp in Sources */,
+				06DFE5A0223FDB410004BBF2 /* GraphTester.cpp in Sources */,
 				066508342209DE05008AF04A /* CrimeData.cpp in Sources */,
 				0665083C2209DFAF008AF04A /* Timer.cpp in Sources */,
 				06B366BB21FF5E2600AC4449 /* Controller.cpp in Sources */,
