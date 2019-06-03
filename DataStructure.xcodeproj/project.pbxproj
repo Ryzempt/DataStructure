@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0640DE83226616E200400C03 /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0640DE81226616E200400C03 /* BinaryTreeTester.cpp */; };
 		066508342209DE05008AF04A /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066508332209DE05008AF04A /* CrimeData.cpp */; };
 		066508362209DE16008AF04A /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 066508352209DE16008AF04A /* Music.cpp */; };
 		0665083C2209DFAF008AF04A /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0665083A2209DFAF008AF04A /* Timer.cpp */; };
@@ -34,6 +35,11 @@
 		060D234D2211D68200D4AD9B /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		062C4068221EF0E500547A76 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		062C4069221EF84900547A76 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
+		0640DE802266132700400C03 /* BinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTree.hpp; sourceTree = "<group>"; };
+		0640DE81226616E200400C03 /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
+		0640DE82226616E200400C03 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
+		0640DE842266180C00400C03 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
+		0640DE8522661BB900400C03 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
 		066508312209DDB8008AF04A /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
 		066508322209DDDA008AF04A /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		066508332209DE05008AF04A /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 		06E5D96E220C84F600A19B77 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		06E5D96F220C863500A19B77 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		06E5D971220C8EA600A19B77 /* Data Structures Umlet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data Structures Umlet.png"; sourceTree = "<group>"; };
+		06E7D08422788C450062BAAD /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +104,8 @@
 				066AD45422147EBB00FFE190 /* LinearTester.hpp */,
 				06DFE59E223FDB410004BBF2 /* GraphTester.cpp */,
 				06DFE59F223FDB410004BBF2 /* GraphTester.hpp */,
+				0640DE81226616E200400C03 /* BinaryTreeTester.cpp */,
+				0640DE82226616E200400C03 /* BinaryTreeTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -105,6 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				066B6B9E2232B74C00DBECC7 /* Graph.hpp */,
+				0640DE842266180C00400C03 /* Tree.hpp */,
+				0640DE8522661BB900400C03 /* BinarySearchTree.hpp */,
+				06E7D08422788C450062BAAD /* AVLTree.hpp */,
 			);
 			path = "Non Linear";
 			sourceTree = "<group>";
@@ -201,6 +213,7 @@
 				06E5D96F220C863500A19B77 /* LinearNode.hpp */,
 				062C4068221EF0E500547A76 /* DoubleNode.hpp */,
 				062C4069221EF84900547A76 /* CircularList.hpp */,
+				0640DE802266132700400C03 /* BinaryTree.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -263,6 +276,7 @@
 			files = (
 				06B366BD21FF5EC400AC4449 /* Runner.cpp in Sources */,
 				06DFE5A0223FDB410004BBF2 /* GraphTester.cpp in Sources */,
+				0640DE83226616E200400C03 /* BinaryTreeTester.cpp in Sources */,
 				066508342209DE05008AF04A /* CrimeData.cpp in Sources */,
 				0665083C2209DFAF008AF04A /* Timer.cpp in Sources */,
 				06B366BB21FF5E2600AC4449 /* Controller.cpp in Sources */,
